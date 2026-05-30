@@ -1,0 +1,82 @@
+Byte-compiled / optimized / DLL files
+
+pycache/
+*.py[cod]
+*$py.class
+
+C extensions
+
+*.so
+
+Distribution / packaging
+
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+PyInstaller
+
+Usually these files are written by a python script, etc.
+
+*.manifest
+*.spec
+
+Installer logs
+
+pip-log.txt
+pip-delete-this-directory.txt
+
+Unit test / coverage reports
+
+htmlcov/
+.tox/
+.nosenv/
+.pytest_cache/
+.mypy_cache/
+vulture_whitelist.py
+
+Environments
+
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+Streamlit configurations & runtime histories
+
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+Databases and Vector Stores (Local cache rules)
+
+chroma_db/
+*.db
+*.sqlite
+*.sqlite3
+
+Operating System files
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
